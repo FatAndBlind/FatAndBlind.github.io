@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>为hexo添加hexo-admin组件</title>
+    <link href="/2020/03/06/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0hexo-admin%E7%BB%84%E4%BB%B6/"/>
+    <url>/2020/03/06/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0hexo-admin%E7%BB%84%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<p>hexo-admin是一款针对hexo可视化编辑的插件。</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>已安装好hexo，选择好自己的主题(我选择的主题是melody)，并部署到GitHub等静态托管服务器上。</p><h3 id="插件介绍"><a href="#插件介绍" class="headerlink" title="插件介绍"></a>插件介绍</h3><p>hexo-admin 是一个Hexo博客引擎的管理用户界面插件。这个插件最初是作为本地编辑器设计的，在本地运行hexo使用hexo-admin编写文章，然后通过hexo g或hexo d（hexo g是本地渲染，hexo d是将渲染的静态页面发布到GitHub）将生成的静态页面发布到GitHub等静态服务器。如果你使用的是非静态托管服务器，比如自己买的主机搭建的hexo，那么一定要设置hexo-admin 的密码，否则谁都可以编辑你的文章。</p><h3 id="插件安装"><a href="#插件安装" class="headerlink" title="插件安装"></a>插件安装</h3><p>1、首先进入hexo创建的博客项目的根目录下，执行：</p><pre><code class="bash">$ npm install --save hexo-admin</code></pre><p>mac可能需要root权限，前面加个sudo 就可以了。如果报错缺少组件，则缺少什么安装什么，npm install 加缺少的组件。<br>2、运行下列命令启动hexo-admin ：</p><pre><code class="bash">$ hexo server -d</code></pre><p>打开 <a href="http://localhost:4000/admin/" target="_blank" rel="noopener">http://localhost:4000/admin/</a> 就可以访问到hexo-admin管理页面了。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2020/02/19/hello-world/"/>
     <url>/2020/02/19/hello-world/</url>
